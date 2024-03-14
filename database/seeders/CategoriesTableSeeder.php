@@ -9,7 +9,7 @@ class CategoriesTableSeeder extends Seeder
 {
     public function run()
     {
-        Category::create(['category' => 'Animals']);
-        Category::create(['category' => 'Security']);
+        Category::create(['category' => 'Animals-Seeder']);
+        Category::create(['category' => 'Security-Seeder']);
     }
 }
